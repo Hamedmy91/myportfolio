@@ -1,13 +1,15 @@
 import About from "./Common/About";
-import TopBanner from "./Common/Topbanner";
-
-
+import BannerPart from "./Common/BannerPart";
+import Graph from "./Common/Graph";
+import Technic from "./Common/Technic";
 
 const page = () => {
   return (
     <div>
-      <TopBanner />
-      <About/>
+      <BannerPart />
+      <About />
+      <Graph />
+      <Technic />
     </div>
   );
 };

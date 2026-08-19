@@ -3,7 +3,7 @@
 import Header from "./Header";
 import Hero from "./Hero";
 
-const Topbanner = () => {
+const BannerPart = () => {
   return (
     <div
       className="
@@ -26,4 +26,4 @@ const Topbanner = () => {
   );
 };
 
-export default Topbanner;
+export default BannerPart;

@@ -9,15 +9,12 @@ const Header = () => {
 
   return (
     <header className="relative">
-      <div className="relative z-10 flex items-center justify-between px-6 py-5 sm:px-6">
-        {/* Logo */}
+      <div className="relative z-10 flex items-center justify-between px-6 py-5  sm:px-6 sm:pl-24 sm:pr-24  ">
         <button className="font-mono text-xl font-bold text-[#28bcf6]">
           {"<Hamed />"}
         </button>
-
-        
         <div>
-          <ul className="hidden items-center gap-9 text-[18px] text-[#f8fafc] sm:flex">
+          <ul className="hidden items-center gap-9 text-[18px] text-[#f8fafc] sm:flex  ">
             <li>
               <button>About</button>
             </li>
@@ -35,24 +32,10 @@ const Header = () => {
             </li>
 
             <li>
-              <button>Publications</button>
-            </li>
-
-            <li>
-              <button>Certifications</button>
-            </li>
-
-            <li>
-              <button>Awards</button>
-            </li>
-
-            <li>
               <button>Contact</button>
             </li>
           </ul>
         </div>
-
-     
         <button
           onClick={() => setMenu(true)}
           className="text-3xl text-[#f8fafc] sm:hidden"
@@ -60,8 +43,6 @@ const Header = () => {
           <IoIosMenu />
         </button>
       </div>
-
-      {/* Mobile Menu */}
       <div
         className={`fixed inset-0 z-50 bg-black/50 backdrop-blur-sm transition-opacity duration-300 ${
           menu
@@ -87,19 +68,15 @@ const Header = () => {
             <li>
               <button onClick={() => setMenu(false)}>About</button>
             </li>
-
             <li>
               <button onClick={() => setMenu(false)}>Skills</button>
             </li>
-
             <li>
               <button onClick={() => setMenu(false)}>Experience</button>
             </li>
-
             <li>
               <button onClick={() => setMenu(false)}>Projects</button>
             </li>
-
             <li>
               <button onClick={() => setMenu(false)}>Contact</button>
             </li>
