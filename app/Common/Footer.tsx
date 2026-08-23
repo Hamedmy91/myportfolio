@@ -9,79 +9,108 @@ import { CiHeart } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div>
-      <section className="relative overflow-hidden  flex flex-col justify-center items-center gap-6 bg-[#04080F] px-6 py-20 sm:flex sm:flex-col sm:gap-8">
-        <div className="bg-[radial-gradient(circle_at_100%_100%,#031620_0%,#040C15_45%,#04080F_100%)]" />
-        <div className="flex flex-col gap-4  sm:grid sm:gap-6 sm:grid-cols-3 ">
-          <div className="flex flex-col justify-center items-center gap-4 text-center sm:justify-start sm:items-start sm:text-start">
-            <button className="font-mono text-[20px] font-bold text-[#28bcf6] sm:text-[24px ]">
+    <footer className="relative overflow-hidden bg-[#020817] px-6 py-14 text-slate-300 sm:px-10 sm:py-16 lg:px-16 lg:py-20">
+      <div className="pointer-events-none bg-[radial-gradient(circle_at_75%_35%,rgba(14,116,255,0.12),transparent_45%)]" />
+
+      <div className="relative mx-auto max-w-6xl">
+        <div className="grid grid-cols-1 gap-12 sm:gap-14 lg:grid-cols-[1.5fr_1fr_1fr] lg:gap-16">
+          <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+            <button className="font-mono text-[22px] font-bold text-[#28bcf6] sm:text-[24px]">
               {"<Hamed/>"}
             </button>
-            <p className="w-85.75 h-28.5 text-[#94a3b8] text-[14px] font-medium  sm:w-[384px] sm:h-30 sm:text-[16px]">
+
+            <p className="mt-5 max-w-md text-[14px] font-medium leading-7 text-[#94a3b8] sm:text-[16px] sm:leading-7">
               Ready to collaborate on something extraordinary? Im always excited
               to connect with fellow innovators, explore cutting-edge projects,
               and push the boundaries of whats possible with technology. Lets
               build the future together.
             </p>
-            <div className="text-[18px] flex gap-4 text-[#f8fafc]">
-              <i className="border flex justify-center items-center w-8.5 h-8.5 bg-[#0e1525] border-[#0e1525] rounded-[5px]">
+
+            <div className="mt-6 flex gap-4 text-[18px] text-[#f8fafc]">
+              <button className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]">
                 <LuGithub />
-              </i>
-              <i className="border flex justify-center items-center w-8.5 h-8.5 bg-[#0e1525] border-[#0e1525] rounded-[5px]">
+              </button>
+
+              <button className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]">
                 <FaLinkedinIn />
-              </i>
-              <i className="border flex justify-center items-center w-8.5 h-8.5 bg-[#0e1525] border-[#0e1525] rounded-[5px]">
+              </button>
+
+              <button className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]">
                 <MdOutlineMailOutline />
-              </i>
+              </button>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center gap-4  ">
-            <h1 className="text-[16px] text-[#f8fafc] font-medium">
+
+          <div className="flex flex-col items-center  sm:flex sm:flex-col  sm:items-center sm:gap-12">
+            <h2 className="text-[16px] font-bold text-[#f8fafc]">
               Quick Links
-            </h1>
-            <div className="sm:flex sm:flex-col  flex flex-wrap justify-center items-center gap-8 w-86 h-14 text-[#94a3b8] font-medium text-[14px]">
-              <p>About</p>
-              <p>Skills</p>
-              <p>Github</p>
-              <p>Experience</p>
-              <p>Projects</p>
-              <div className="flex justify-center items-center gap-1">
-                <p>resume</p>
-                <i className="text-[12px]">
-                  <FiExternalLink />
-                </i>
+            </h2>
+
+            <div className="mt-6 flex flex-wrap justify-center  w-85.75 h-14 items-center gap-2 text-[14px] font-medium text-[#94a3b8] sm:flex sm:flex-nowrap sm:flex-col">
+              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+                About
+              </p>
+
+              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+                Skills
+              </p>
+
+              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+                Github
+              </p>
+
+              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+                Experience
+              </p>
+
+              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+                Projects
+              </p>
+
+              <div className="flex cursor-pointer items-center gap-1 transition hover:text-[#28bcf6]">
+                <p>Resume</p>
+                <FiExternalLink className="text-[12px]" />
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center text-center gap-4 pt-8">
-            <h1 className="text-[#f8fafc] text-[16px] font-bold">
+
+          <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+            <h2 className="text-[16px] font-bold text-[#f8fafc]">
               Get In Touch
-            </h1>
-            <p className="text-[#94a3b8] text-[14px] font-medium">
+            </h2>
+
+            <p className="mt-6 text-[14px] font-medium text-[#94a3b8]">
               Ready to work together?
             </p>
-            <p className="text-[#28bcf6] text-[14px] font-medium">
+
+            <p className="mt-4 break-all text-[14px] font-medium text-[#28bcf6] sm:break-normal">
               Hamedmy1991@gmail.com
             </p>
-            <p className="text-[#94a3b8] text-[14px] font-medium">
-              Tehran , Iran
+
+            <p className="mt-4 text-[14px] font-medium text-[#94a3b8]">
+              Tehran, Iran
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-3 pt-8 text-center border-t mx-2 border-[]">
-          <div className="flex  justify-center items-center flex-wrap text-[#94a3b8] text-[14px] font-medium">
-            <span className="text-[12px]">
-              © 2026 Hamed Moyasseri. Made with
-            </span>
-            <CiHeart className="mx-1 text-[#ef4444] text-[18px]" />
-            <span>and lots of coffee.</span>
+
+        <div className="mt-12 border-t border-white/5 pt-7 sm:mt-14 sm:pt-8 lg:mt-16">
+          <div className="flex flex-col items-center justify-between gap-4 text-center lg:flex-row lg:text-left">
+            <div className="flex flex-wrap items-center justify-center text-[12px] font-medium text-[#94a3b8] sm:text-[14px]">
+              <span>© 2026 Hamed Moyasseri. Made with</span>
+
+              <CiHeart className="mx-1 text-[18px] text-[#ef4444]" />
+
+              <span>and lots of coffee.</span>
+            </div>
+
+            {/* Tech */}
+            <p className="text-[12px] font-medium text-[#94a3b8] sm:text-[14px]">
+              Built with React, Next.js & Tailwind CSS
+            </p>
           </div>
-          <p className="text-[#94a3b8] text-[12px] font-medium">
-            Built with React, Next.js & Tailwind CSS
-          </p>
         </div>
-      </section>
-    </div>
+      </div>
+    </footer>
   );
 };
 
