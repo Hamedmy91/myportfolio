@@ -11,7 +11,7 @@ const Header = () => {
     <header className="relative">
       <div className="relative z-10 flex items-center justify-between px-6 py-5  sm:px-6 sm:pl-24 sm:pr-24  ">
         <button className="font-mono text-xl font-bold text-[#28bcf6]">
-          {"<Hamed />"}
+          {"<Hamed/>"}
         </button>
         <div>
           <ul className="hidden items-center gap-9 text-[18px] text-[#f8fafc] sm:flex  ">
@@ -22,7 +22,9 @@ const Header = () => {
             <li>
               <button>Skills</button>
             </li>
-
+            <li>
+              <button>Github</button>
+            </li>
             <li>
               <button>Experience</button>
             </li>
@@ -70,6 +72,9 @@ const Header = () => {
             </li>
             <li>
               <button onClick={() => setMenu(false)}>Skills</button>
+            </li>
+            <li>
+              <button onClick={() => setMenu(false)}>Github</button>
             </li>
             <li>
               <button onClick={() => setMenu(false)}>Experience</button>

@@ -23,7 +23,7 @@ const Technic = () => {
             environments
           </p>
         </div>
-        <div className="flex flex-col justify-start gap-4 items-center pl-8 pt-6 sm:grid sm:grid-cols-2">
+        <div className="flex flex-col justify-center gap-4 items-center  pt-6 sm:grid sm:grid-cols-2">
           <div className="active:shadow-xl/50 active:transition-transform active:ease-out active:-translate-y-2.5 active:duration-500 shadow-[#28bcf64d] border flex flex-col w-96 h-60 border-[#54ebfc] rounded-[10px] gap-4">
             <label className="flex items-center gap-3 mt-4" htmlFor="">
               <div className="flex items-center justify-center ml-2 w-8 h-8 rounded-[10px] border bg-[#54ebfc]">
