@@ -35,26 +35,45 @@ const Hero = () => {
         </p>
         <div className="flex flex-col justify-center items-center gap-4 sm:mt-8 ">
           <div className="flex flex-col justify-center items-center gap-4 sm:flex sm:flex-row sm:justify-start sm:items-start sm:pr-12 sm:gap-4">
-            <button className=" w-36 h-12 bg-linear-to-br from-[#28bcf6] to-[#66ffff] text-[14px] text-[#05080f] font-bold rounded-[10px]  ">
+            <a href="#contact" className=" w-36 h-12 flex justify-center items-center bg-linear-to-br from-[#28bcf6] to-[#66ffff] text-[14px] text-[#05080f] font-bold rounded-[10px]  ">
               Get In Touch
-            </button>
-            <button className="flex gap-4 items-center w-62.5 h-12.5 border border-[#28bcf680] rounded-[5px] justify-center text-[#f8fafc] bg-[#05080f]">
+            </a>
+            <a
+              href="/resume2.pdf"
+              download={true}
+              className="flex gap-4 items-center w-62.5 h-12.5 border border-[#28bcf680] rounded-[5px] justify-center text-[#f8fafc] bg-[#05080f]"
+            >
               <i>
                 <LuDownload />
               </i>
               <span className="font-bold">Download Resume</span>
-            </button>
+            </a>
           </div>
           <div className="flex justify-center items-center text-white gap-5 w-8 h-8 sm:flex sm:justify-start sm:items-start sm:pr-110 sm:size-36 ">
-            <i className="">
-              <FiGithub />
-            </i>
-            <i>
-              <FaLinkedinIn />
-            </i>
-            <i>
-              <MdOutlineMailOutline />
-            </i>
+            <a
+              href="https://github.com/Hamedmy91"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="">
+                <FiGithub />
+              </i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/hamed-moyasseri-reactdeveloper/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i>
+                <FaLinkedinIn />
+              </i>
+            </a>
+
+            <a href="mailto:example@gmail.com">
+              <i>
+                <MdOutlineMailOutline />
+              </i>
+            </a>
           </div>
         </div>
         <div className="absolute -bottom-32 left-1/2 sm:left-1/2 sm:-bottom-20 ">

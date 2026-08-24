@@ -10,7 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Contact = () => {
   return (
     <div>
-      <section className="relative overflow-hidden  flex flex-col justify-center items-center gap-6 bg-[#04080F] px-6 py-20 sm:flex sm:flex-col sm:gap-8">
+      <section id="contact" className="relative overflow-hidden  flex flex-col justify-center items-center gap-6 bg-[#04080F] px-6 py-20 sm:flex sm:flex-col sm:gap-8">
         <div className="bg-[radial-gradient(circle_at_100%_100%,#031620_0%,#040C15_45%,#04080F_100%)]" />
         <div className="flex flex-col items-center gap-3 text-center ">
           <div>
@@ -96,7 +96,10 @@ const Contact = () => {
               <h1 className="text-[#f8fafc] text-[24px]">
                 Contact Information
               </h1>
-              <div className="flex gap-5 justify-center items-center">
+              <a
+                href="mailto:example@gmail.com"
+                className="flex gap-5 justify-center items-center"
+              >
                 <i className="border w-12 h-12 flex text-2xl justify-center items-center rounded-[10px] bg-[#28bcf6]">
                   <MdOutlineEmail />
                 </i>
@@ -106,17 +109,17 @@ const Contact = () => {
                     Hamedmy1991@gmail.com
                   </p>
                 </div>
-              </div>
+              </a>
               <div className="flex gap-5 justify-center items-center">
                 <i className="border w-12 h-12 flex text-2xl justify-center items-center rounded-[10px] bg-[#28bcf6]">
                   <LuPhone />
                 </i>
-                <div>
+                <a href="tel:+989217451339">
                   <p className="text-[#94a3b8] text-[14px]">Phone</p>
                   <p className="text-[#f8fafc] text-[16px] font-medium">
                     +98-9217451339
                   </p>
-                </div>
+                </a>
               </div>
               <div className="flex gap-5 justify-center items-center">
                 <i className="border w-12 h-12 flex text-2xl justify-center items-center rounded-[10px] bg-[#28bcf6]">
@@ -132,7 +135,12 @@ const Contact = () => {
             </div>
             <div className="sm:w-xl sm:h-60 sm:active:shadow-xl/50 sm:active:shadow-[#28bcf6] sm:active:-translate-y-2.5 flex flex-col bg-[#080c16b2] justify-start items-start pl-6 pt-6 gap-6 w-85.75 h-60 border rounded-[10px] border-[#28bcf64d]">
               <h1 className="text-[#f8fafc] text-[24px]">Follow Me</h1>
-              <div className="flex gap-5 justify-center items-center">
+              <a
+                href="https://github.com/Hamedmy91"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex gap-5 justify-center items-center"
+              >
                 <i className="border w-12 h-12 flex text-2xl justify-center items-center rounded-[10px] bg-[#28bcf6]">
                   <LuGithub />
                 </i>
@@ -142,10 +150,15 @@ const Contact = () => {
                     Hamedmy91
                   </p>
                 </div>
-              </div>
-              <div className="flex gap-5 justify-center items-center">
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hamed-moyasseri-reactdeveloper/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex gap-5 justify-center items-center"
+              >
                 <i className="border w-12 h-12 flex text-2xl justify-center items-center rounded-[10px] bg-[#28bcf6]">
-                 <FaLinkedinIn />
+                  <FaLinkedinIn />
                 </i>
                 <div>
                   <p className="text-[#94a3b8] text-[14px]">Linkedin</p>
@@ -153,7 +166,7 @@ const Contact = () => {
                     hamed-moyasseri-reactdeveloper
                   </p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

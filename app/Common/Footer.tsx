@@ -15,9 +15,12 @@ const Footer = () => {
       <div className="relative mx-auto max-w-6xl">
         <div className="grid grid-cols-1 gap-12 sm:gap-14 lg:grid-cols-[1.5fr_1fr_1fr] lg:gap-16">
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-            <button className="font-mono text-[22px] font-bold text-[#28bcf6] sm:text-[24px]">
+            <a
+              href="#"
+              className="font-mono text-[22px] font-bold text-[#28bcf6] sm:text-[24px]"
+            >
               {"<Hamed/>"}
-            </button>
+            </a>
 
             <p className="mt-5 max-w-md text-[14px] font-medium leading-7 text-[#94a3b8] sm:text-[16px] sm:leading-7">
               Ready to collaborate on something extraordinary? Im always excited
@@ -26,19 +29,32 @@ const Footer = () => {
               build the future together.
             </p>
 
-            <div className="mt-6 flex gap-4 text-[18px] text-[#f8fafc]">
+            <a
+              href="https://github.com/Hamedmy91"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 flex gap-4 text-[18px] text-[#f8fafc]"
+            >
               <button className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]">
                 <LuGithub />
               </button>
 
-              <button className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]">
+              <a
+                href="https://www.linkedin.com/in/hamed-moyasseri-reactdeveloper/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]"
+              >
                 <FaLinkedinIn />
-              </button>
+              </a>
 
-              <button className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]">
+              <a
+                href="mailto:example@gmail.com"
+                className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]"
+              >
                 <MdOutlineMailOutline />
-              </button>
-            </div>
+              </a>
+            </a>
           </div>
 
           <div className="flex flex-col items-center  sm:flex sm:flex-col  sm:items-center sm:gap-12">
@@ -47,30 +63,46 @@ const Footer = () => {
             </h2>
 
             <div className="mt-6 flex flex-wrap justify-center  w-85.75 h-14 items-center gap-2 text-[14px] font-medium text-[#94a3b8] sm:flex sm:flex-nowrap sm:flex-col">
-              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+              <a
+                href="#about"
+                className="cursor-pointer transition hover:text-[#28bcf6]"
+              >
                 About
-              </p>
+              </a>
 
-              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+              <a
+                href="#skills"
+                className="cursor-pointer transition hover:text-[#28bcf6]"
+              >
                 Skills
-              </p>
+              </a>
 
-              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+              <a href="#github" className="cursor-pointer transition hover:text-[#28bcf6]">
                 Github
-              </p>
+              </a>
 
-              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+              <a
+                href="#job"
+                className="cursor-pointer transition hover:text-[#28bcf6]"
+              >
                 Experience
-              </p>
+              </a>
 
-              <p className="cursor-pointer transition hover:text-[#28bcf6]">
+              <a
+                href="#project"
+                className="cursor-pointer transition hover:text-[#28bcf6]"
+              >
                 Projects
-              </p>
+              </a>
 
-              <div className="flex cursor-pointer items-center gap-1 transition hover:text-[#28bcf6]">
+              <a
+                href="/resume2.pdf"
+                download={true}
+                className="flex cursor-pointer items-center gap-1 transition hover:text-[#28bcf6]"
+              >
                 <p>Resume</p>
                 <FiExternalLink className="text-[12px]" />
-              </div>
+              </a>
             </div>
           </div>
 
@@ -83,9 +115,12 @@ const Footer = () => {
               Ready to work together?
             </p>
 
-            <p className="mt-4 break-all text-[14px] font-medium text-[#28bcf6] sm:break-normal">
+            <a
+              href="mailto:example@gmail.com"
+              className="mt-4 break-all text-[14px] font-medium text-[#28bcf6] sm:break-normal"
+            >
               Hamedmy1991@gmail.com
-            </p>
+            </a>
 
             <p className="mt-4 text-[14px] font-medium text-[#94a3b8]">
               Tehran, Iran
@@ -103,7 +138,6 @@ const Footer = () => {
               <span>and lots of coffee.</span>
             </div>
 
-            {/* Tech */}
             <p className="text-[12px] font-medium text-[#94a3b8] sm:text-[14px]">
               Built with React, Next.js & Tailwind CSS
             </p>

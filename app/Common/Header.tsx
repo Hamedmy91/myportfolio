@@ -16,26 +16,26 @@ const Header = () => {
         <div>
           <ul className="hidden items-center gap-9 text-[18px] text-[#f8fafc] sm:flex  ">
             <li>
-              <button>About</button>
+              <a href="#about">About</a>
             </li>
 
-            <li>
+            <a href="#skills">
               <button>Skills</button>
-            </li>
-            <li>
+            </a>
+            <a href="#github">
               <button>Github</button>
-            </li>
-            <li>
+            </a>
+            <a href="#job">
               <button>Experience</button>
-            </li>
+            </a>
 
-            <li>
+            <a href="#project">
               <button>Projects</button>
-            </li>
+            </a>
 
-            <li>
+            <a href="#contact">
               <button>Contact</button>
-            </li>
+            </a>
           </ul>
         </div>
         <button
@@ -67,24 +67,24 @@ const Header = () => {
           </button>
 
           <ul className="mt-8 flex flex-col gap-5 text-[16px] font-bold text-[#f8fafc]">
-            <li>
+            <a href="#about">
               <button onClick={() => setMenu(false)}>About</button>
-            </li>
-            <li>
+            </a>
+            <a href="#skills">
               <button onClick={() => setMenu(false)}>Skills</button>
-            </li>
-            <li>
+            </a>
+            <a href="#github">
               <button onClick={() => setMenu(false)}>Github</button>
-            </li>
-            <li>
+            </a>
+            <a href="#job">
               <button onClick={() => setMenu(false)}>Experience</button>
-            </li>
-            <li>
+            </a>
+            <a href="#project">
               <button onClick={() => setMenu(false)}>Projects</button>
-            </li>
-            <li>
+            </a>
+            <a href="#contact">
               <button onClick={() => setMenu(false)}>Contact</button>
-            </li>
+            </a>
           </ul>
         </div>
       </div>

@@ -4,6 +4,7 @@ import Contact from "./Common/Contact";
 import Footer from "./Common/Footer";
 import Graph from "./Common/Graph";
 import Job from "./Common/Job";
+import Projects from "./Common/Projects";
 import Technic from "./Common/Technic";
 
 const page = () => {
@@ -14,6 +15,7 @@ const page = () => {
       <Graph />
       <Technic />
       <Job />
+      <Projects/>
       <Contact/>
       <Footer/>
     </div>
