@@ -49,7 +49,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="mailto:example@gmail.com"
+                href="mailto:Hamedmy1991@gmail.com"
                 className="flex h-9 w-9 items-center justify-center rounded-md border border-[#0e1525] bg-[#0e1525] transition hover:border-[#28bcf6] hover:text-[#28bcf6]"
               >
                 <MdOutlineMailOutline />
@@ -77,7 +77,10 @@ const Footer = () => {
                 Skills
               </a>
 
-              <a href="#github" className="cursor-pointer transition hover:text-[#28bcf6]">
+              <a
+                href="#github"
+                className="cursor-pointer transition hover:text-[#28bcf6]"
+              >
                 Github
               </a>
 
@@ -116,7 +119,7 @@ const Footer = () => {
             </p>
 
             <a
-              href="mailto:example@gmail.com"
+              href="mailto:Hamedmy1991@gmail.com"
               className="mt-4 break-all text-[14px] font-medium text-[#28bcf6] sm:break-normal"
             >
               Hamedmy1991@gmail.com

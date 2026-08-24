@@ -35,7 +35,10 @@ const Hero = () => {
         </p>
         <div className="flex flex-col justify-center items-center gap-4 sm:mt-8 ">
           <div className="flex flex-col justify-center items-center gap-4 sm:flex sm:flex-row sm:justify-start sm:items-start sm:pr-12 sm:gap-4">
-            <a href="#contact" className=" w-36 h-12 flex justify-center items-center bg-linear-to-br from-[#28bcf6] to-[#66ffff] text-[14px] text-[#05080f] font-bold rounded-[10px]  ">
+            <a
+              href="#contact"
+              className=" w-36 h-12 flex justify-center items-center bg-linear-to-br from-[#28bcf6] to-[#66ffff] text-[14px] text-[#05080f] font-bold rounded-[10px]  "
+            >
               Get In Touch
             </a>
             <a
@@ -69,7 +72,7 @@ const Hero = () => {
               </i>
             </a>
 
-            <a href="mailto:example@gmail.com">
+            <a href="mailto:Hamedmy1991@gmail.com">
               <i>
                 <MdOutlineMailOutline />
               </i>

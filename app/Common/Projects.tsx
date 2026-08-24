@@ -143,7 +143,7 @@ const Projects = () => {
                     </i>
                     <p>View Code</p>
                   </a>
-                  <a href="">Demo</a>
+                  <a href="https://medical-app-49n8.onrender.com/">Demo</a>
                 </div>
               </div>
             </div>

@@ -30,7 +30,7 @@ const GithubActivity = () => {
               blockMargin={4}
               fontSize={12}
               theme={{
-                dark: ["#0d1117", "#0e4429", "#006d32", "#26a641", "#39d353"],
+                dark: ["#0d1117", "#0e4429", "#006d32", "#26a641", "#39d353"]
               }}
               showWeekdayLabels
               showMonthLabels
