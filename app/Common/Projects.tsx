@@ -38,7 +38,7 @@ const Projects = () => {
       status: "Completed",
       technologies: ["Nextjs", "TypeScript", "Vite"],
       github: "https://github.com/Hamedmy91/store-next",
-      demo: "https://storeko.netlify.app//",
+      demo: "https://dashboardadmin91.netlify.app/",
     },
     {
       title: "Dashboard",
@@ -49,8 +49,21 @@ const Projects = () => {
       status: "Completed",
       technologies: ["Nextjs", "TypeScript", "Vite"],
       github: "https://github.com/Hamedmy91/dashboard-next",
-      demo: "https://storeko.netlify.app//",
+      demo: "https://dashboardadmin91.netlify.app///",
     },
+    {
+      title: "Gocart",
+      category:
+        "Modern, responsive e-commerce website built with React and Vite.",
+      description:
+        "GoCart is a modern e-commerce frontend built with React and Vite, featuring a clean and responsive user interface designed for an online shopping experience. The project focuses on a scalable frontend structure and provides a solid foundation for building and extending e-commerce features.",
+      image: "/gocart.WEBP",
+      status: "Completed",
+      technologies: ["React", "TypeScript", "Vite"],
+      github: "https://github.com/Hamedmy91/gocart",
+      demo: "https://gocartshop.netlify.app/",
+    },
+   
   ];
   return (
     <div
