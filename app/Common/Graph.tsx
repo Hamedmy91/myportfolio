@@ -25,7 +25,6 @@ const GithubActivity = () => {
           </p>
         </div>
 
-        {/* Calendar */}
         <div className="w-full overflow-x-auto pb-2">
           <div className="mx-auto flex min-w-200 text-white justify-center px-2 py-4">
             <GitHubCalendar
