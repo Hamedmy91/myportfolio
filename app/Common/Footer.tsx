@@ -35,12 +35,10 @@ const Footer = () => {
 
   return (
     <footer className="relative overflow-hidden bg-[#020817] px-6 py-14 text-slate-300 sm:px-10 sm:py-16 lg:px-16 lg:py-20">
-      {/* Background glow */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_75%_35%,rgba(14,116,255,0.12),transparent_45%)]" />
 
       <div className="relative mx-auto max-w-6xl">
         <div className="grid grid-cols-1 gap-12 sm:gap-14 lg:grid-cols-[1.5fr_1fr_1fr] lg:gap-16">
-          {/* About */}
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <a
               href="#"
@@ -56,7 +54,6 @@ const Footer = () => {
               technology. Let&apos;s build the future together.
             </p>
 
-            {/* Social Links */}
             <div className="mt-6 flex gap-4 text-[18px] text-[#f8fafc]">
               {socialLinks.map((link) => (
                 <a
@@ -77,7 +74,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div className="flex flex-col items-center">
             <h2 className="text-[16px] font-bold text-[#f8fafc]">
               Quick Links
@@ -105,7 +101,6 @@ const Footer = () => {
             </nav>
           </div>
 
-          {/* Contact */}
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <h2 className="text-[16px] font-bold text-[#f8fafc]">
               Get In Touch
@@ -128,7 +123,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom */}
         <div className="mt-12 border-t border-white/5 pt-7 sm:mt-14 sm:pt-8 lg:mt-16">
           <div className="flex flex-col items-center justify-between gap-4 text-center lg:flex-row lg:text-left">
             <div className="flex flex-wrap items-center justify-center text-[12px] font-medium text-[#94a3b8] sm:text-[14px]">
