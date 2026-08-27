@@ -70,10 +70,7 @@ const Job = () => {
       id="job"
       className="relative overflow-hidden bg-[#04080F] px-6 py-20 sm:flex sm:flex-col sm:gap-8"
     >
-      {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_100%_100%,#031620_0%,#040C15_45%,#04080F_100%)]" />
-
-      {/* Header */}
       <div className="relative z-10 flex flex-col items-center gap-8">
         <div className="flex flex-col items-center gap-3 text-center">
           <h1 className="text-nowrap text-[30px] font-bold text-[#f8fafc] sm:text-[48px]">
@@ -113,8 +110,6 @@ const Job = () => {
                     }`}
                   />
                 </span>
-
-                {/* Experience card */}
                 <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-5 transition-colors hover:border-slate-700">
                   <button
                     type="button"
@@ -127,7 +122,6 @@ const Job = () => {
                         <h3 className="text-lg font-semibold text-white">
                           {exp.role}
                         </h3>
-
                         <p className="text-sm font-medium text-emerald-400">
                           {exp.company}
                         </p>
@@ -147,11 +141,8 @@ const Job = () => {
                       {isOpen ? "Show less −" : "Show details +"}
                     </span>
                   </button>
-
-                  {/* Details */}
                   {isOpen && (
                     <div className="mt-5 space-y-5 border-t border-slate-800 pt-5">
-                      {/* Achievements */}
                       <div>
                         <h4 className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-300">
                           Key Achievements
@@ -169,8 +160,6 @@ const Job = () => {
                           ))}
                         </ul>
                       </div>
-
-                      {/* Technologies */}
                       <div>
                         <h4 className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-300">
                           Technologies Used
